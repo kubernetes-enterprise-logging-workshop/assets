@@ -20,7 +20,7 @@ spec:
         effect: NoSchedule
       containers:
       - name: fluentd
-        image: kelw/fluent:0.12
+        image: kelw/fluentd:0.12
         env:
           - name:  FLUENT_ELASTICSEARCH_HOST
             value: "demo.kubernetes-logging.com"
