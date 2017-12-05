@@ -23,7 +23,7 @@ spec:
         image: kelw/fluentd:0.12
         env:
           - name:  FLUENT_ELASTICSEARCH_HOST
-            value: "demo.kubernetes-logging.com"
+            value: "419ca556420506301e938a37fb984621.us-east-1.aws.found.io"
           - name:  FLUENT_ELASTICSEARCH_PORT
             value: "9243"
           - name: FLUENT_ELASTICSEARCH_SCHEME
@@ -34,8 +34,6 @@ spec:
             value: "elastic"
           - name: FLUENT_ELASTICSEARCH_PASSWORD
             value: "FIXME"
-          - name: FLUENT_ELASTICSEARCH_SSL_VERIFY
-            value: "false"
         resources:
           limits:
             memory: 200Mi
